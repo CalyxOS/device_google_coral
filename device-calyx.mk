@@ -4,3 +4,9 @@ PRODUCT_COPY_FILES += \
     device/google/coral/permissions/privapp-permissions-aosp-extended.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-aosp-extended.xml
 
 DEVICE_PACKAGE_OVERLAYS += device/google/coral/device-calyx.mk
+
+# RCS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling \
+    RcsService
