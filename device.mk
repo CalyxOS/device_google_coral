@@ -1006,3 +1006,7 @@ include hardware/google/pixel/thermal/device.mk
 -include hardware/google/pixel/power-libperfmgr/aidl/device.mk
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota_retrofit.mk)
+
+# EUICC
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.euicc.xml:system/etc/permissions/android.hardware.telephony.euicc.xml
