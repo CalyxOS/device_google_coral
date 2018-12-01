@@ -21,6 +21,11 @@ PRODUCT_COPY_FILES += \
 
 TARGET_PREBUILT_KERNEL := device/google/coral-kernel/Image.lz4
 
+# RCS
+PRODUCT_PACKAGES += \
+    PresencePolling \
+    RcsService
+
 # Build necessary packages for system_ext
 
 # Display
