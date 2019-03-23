@@ -19,7 +19,11 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_flame.mk \
     $(LOCAL_DIR)/aosp_coral_hwasan.mk \
     $(LOCAL_DIR)/aosp_flame_hwasan.mk \
+    $(LOCAL_DIR)/calyx_coral.mk \
+    $(LOCAL_DIR)/calyx_flame.mk \
 
 COMMON_LUNCH_CHOICES := \
     aosp_coral-userdebug \
     aosp_flame-userdebug \
+    calyx_coral-userdebug \
+    calyx_flame-userdebug \
