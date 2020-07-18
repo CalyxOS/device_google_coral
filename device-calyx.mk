@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
 
 TARGET_PREBUILT_KERNEL := device/google/coral-kernel/Image.lz4
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-sdm
+
 # RCS
 PRODUCT_PACKAGES += \
     PresencePolling \
