@@ -9,3 +9,4 @@ $(call inherit-product, device/google/coral/aosp_coral.mk)
 PRODUCT_NAME := calyx_coral
 PRODUCT_MODEL := Pixel 4 XL
 PRODUCT_RESTRICT_VENDOR_FILES := false
+PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := relaxed
