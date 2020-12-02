@@ -1,3 +1,5 @@
+DEVICE_PACKAGE_OVERLAYS += device/google/coral/device-calyx.mk
+
 # EUICC
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:system/etc/permissions/android.hardware.telephony.euicc.xml \
