@@ -11,3 +11,5 @@ PRODUCT_MODEL := Pixel 4
 PRODUCT_BRAND := google
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+$(call inherit-product, vendor/google/flame/flame-vendor.mk)
