@@ -17,3 +17,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/coral/coral:13/TP1A.220624.014/8819323:user/release-keys
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+$(call inherit-product, vendor/google/coral/coral-vendor.mk)
