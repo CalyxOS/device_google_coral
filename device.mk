@@ -101,6 +101,11 @@ ifeq ($(wildcard vendor/google_devices/coral/proprietary/device-vendor-coral.mk)
     BUILD_WITHOUT_VENDOR := true
 endif
 
+ifeq ($(INLINE_KERNEL_BUILDING),false)
+TARGET_PREBUILT_KERNEL := device/google/coral-kernel/Image.lz4
+PRODUCT_VENDOR_KERNEL_HEADERS := device/google/coral-kernel/sm8150/kernel-headers
+endif
+
 PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_SHIPPING_API_LEVEL := 29
 
