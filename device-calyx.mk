@@ -21,6 +21,9 @@ PRODUCT_COPY_FILES += \
 
 TARGET_PREBUILT_KERNEL := device/google/coral-kernel/Image.lz4
 
+# Touch
+include hardware/google/pixel/touch/device.mk
+
 # Build necessary packages for system_ext
 
 # Display
