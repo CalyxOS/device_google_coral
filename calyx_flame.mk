@@ -5,6 +5,8 @@ $(call inherit-product, vendor/calyx/config/common.mk)
 $(call inherit-product, device/google/coral/device-calyx.mk)
 $(call inherit-product, device/google/coral/aosp_flame.mk)
 
+DEVICE_PACKAGE_OVERLAYS += vendor/google_devices/flame/vendor_overlay/carrier-naked/
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := calyx_flame
 PRODUCT_MODEL := Pixel 4
