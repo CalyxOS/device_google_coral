@@ -9,6 +9,6 @@ $(call inherit-product, device/google/coral/aosp_flame.mk)
 PRODUCT_NAME := calyx_flame
 PRODUCT_MODEL := Pixel 4
 PRODUCT_RESTRICT_VENDOR_FILES := false
-PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS :=
+PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := relaxed
 
 PRODUCT_SOONG_NAMESPACES += vendor/google_devices/flame
