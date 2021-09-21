@@ -12,3 +12,6 @@ TARGET_KERNEL_CONFIG := floral_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/coral
 TARGET_NEEDS_DTBOIMAGE := true
 endif
+
+# Properties
+TARGET_VENDOR_PROP += device/google/coral/vendor.prop
