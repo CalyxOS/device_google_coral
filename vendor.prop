@@ -5,3 +5,6 @@ media.mediadrmservice.enable=true
 # Graphics
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
+
+# Security patch
+ro.vendor.kernel.security_patch=2022-08-05
