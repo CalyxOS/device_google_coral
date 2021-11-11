@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa263a83_0b3b670f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-11T23:21:18Z",
+      "side": 1,
+      "message": "I don\u0027t think we need this per-device anymore.\n\nIt\u0027s enforced on all newer pixels so we should either move things, or add to allowlist.",
+      "revId": "4ef82989f22b80112467251a78ca1b63e4b44df8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
