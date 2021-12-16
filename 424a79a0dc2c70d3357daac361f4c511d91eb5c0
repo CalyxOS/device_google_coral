@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cdc13103_1d2ca9c4",
+        "filename": "device-calyx.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-12-16T15:31:43Z",
+      "side": 1,
+      "message": "Put below DEVICE_PACKAGE_OVERLAYS",
+      "revId": "424a79a0dc2c70d3357daac361f4c511d91eb5c0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
