@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c13a85ea_2e4b39a9",
+        "filename": "overlay-calyx/frameworks/base/core/res/res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-18T22:12:40Z",
+      "side": 1,
+      "message": "Are there translations?",
+      "revId": "3aee0215629ea71eedb0d19ab9255a131bd150dd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
