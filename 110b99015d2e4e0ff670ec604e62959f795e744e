@@ -33,6 +33,24 @@
       "message": "LOCAL_PATH isn\u0027t set here",
       "revId": "110b99015d2e4e0ff670ec604e62959f795e744e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba84820b_5cd83d43",
+        "filename": "coral/device-calyx.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-04T20:38:34Z",
+      "side": 1,
+      "message": "Fixed 8680: fixup! floral: Add separated overlay directories for coral \u0026 flame | https://review.calyxos.org/c/CalyxOS/device_google_coral/+/8680",
+      "parentUuid": "aa8b26c4_78ae9a57",
+      "revId": "110b99015d2e4e0ff670ec604e62959f795e744e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
