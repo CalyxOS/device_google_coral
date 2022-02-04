@@ -1,3 +1,3 @@
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/coral/overlay-calyx
+DEVICE_PACKAGE_OVERLAYS += device/google/coral/coral/overlay-calyx
 
-$(call inherit-product, $(LOCAL_PATH)/device-calyx.mk)
+$(call inherit-product, device/google/coral/device-calyx.mk)
