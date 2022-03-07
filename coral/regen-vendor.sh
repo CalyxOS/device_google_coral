@@ -1245,6 +1245,10 @@ VENDOR_SKIP_FILES=(
     # Secure element
     "lib/ese_spi_st.so"
     "lib/libstpreprocess.so"
+
+    # 12L
+    "lib/libmediautils_vendor.so"
+    "lib/libmemunreachable.so"
 )
 
 generate_prop_list_from_image "${_input_image}" "${_output_file}" VENDOR_SKIP_FILES
