@@ -243,6 +243,7 @@ vendor/etc/default_c2proto.mps
 vendor/etc/default_coral.mps
 vendor/etc/default_f2proto.mps
 vendor/etc/default_flame.mps
+vendor/etc/flp.conf
 vendor/etc/hbtp/qtc801s.bin
 vendor/etc/init/android.hardware.biometrics.face@1.0-service.google.rc
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
