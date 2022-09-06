@@ -175,6 +175,7 @@ vendor/dsp/sdsp/smartbatching.so
 vendor/dsp/sdsp/uv_exposure.napp_header
 vendor/dsp/sdsp/uv_exposure.so
 vendor/etc/FOSSConfig.xml
+vendor/etc/NOTICE.xml.gz
 vendor/etc/acdbdata/CDP/CDP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/CDP/CDP_Codec_cal.acdb
 vendor/etc/acdbdata/CDP/CDP_General_cal.acdb
