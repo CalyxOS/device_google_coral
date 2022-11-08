@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "74a76d81_1db3f4aa",
+        "filename": "BoardConfig-calyx.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-08T14:34:11Z",
+      "side": 1,
+      "message": "One thing we do on FP4 is\n\n`PLATFORM_SECURITY_PATCH_TIMESTAMP :\u003d $(shell date -d \u0027TZ\u003d\"GMT\" $(PLATFORM_SECURITY_PATCH)\u0027 +%s)`\n\nHowever I didn\u0027t do that here given that it works as the rollback index, and we still want to have rollback protection working.\n\nGiven the only reason we did it on FP4 was to match stock and avoid the bootloader bugs, I don\u0027t think we need it here.\n\nIt does mean it\u0027d mismatch but this is only used for the rollback index AFAICT so it should be fine.\n\nhttps://cs.android.com/search?q\u003dPLATFORM_SECURITY_PATCH_TIMESTAMP\u0026sq\u003d",
+      "revId": "44c0148aef2a058b59d3a27b9932ffe086fac99e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
