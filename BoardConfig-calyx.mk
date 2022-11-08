@@ -22,3 +22,5 @@ BOARD_SEPOLICY_DIRS += device/google/coral/sepolicy-lineage/vendor
 
 # Needed for camera
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
+
+PLATFORM_SECURITY_PATCH := 2022-10-05
