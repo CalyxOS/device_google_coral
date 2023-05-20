@@ -7,6 +7,10 @@
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE := true
+TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE := false
+
 # Manifests
 DEVICE_MANIFEST_FILE += device/google/coral/lineage_manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/calyx/config/device_framework_matrix.xml
