@@ -2,6 +2,9 @@
 
 # product partition
 
+# Camera extensions
+product/app/PixelCameraServicesFlame/PixelCameraServicesFlame.apk;PRESIGNED
+
 # Charger
 product/etc/res/images/charger/battery_fail.png
 product/etc/res/images/charger/battery_scale.png
@@ -22,6 +25,10 @@ product/framework/uimservicelibrary.jar
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 
 # system_ext partition
+
+# Camera extensions
+system_ext/etc/permissions/com.google.android.camera.extensions.xml
+system_ext/framework/com.google.android.camera.extensions.jar
 
 # HBM
 system_ext/priv-app/HbmSVManager/HbmSVManager.apk
