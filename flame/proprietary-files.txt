@@ -2,12 +2,6 @@
 
 # product partition
 
-# Charger
-product/etc/res/images/charger/battery_fail.png
-product/etc/res/images/charger/battery_scale.png
-product/etc/res/images/charger/main_font.png
-product/etc/res/values/charger/animation.txt
-
 # Qualcomm Radio
 product/app/uimremoteclient/uimremoteclient.apk
 product/app/uimremoteserver/uimremoteserver.apk
