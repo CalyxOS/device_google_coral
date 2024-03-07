@@ -18,7 +18,7 @@ product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 # system_ext partition
 
 # HBM
-system_ext/priv-app/HbmSVManager/HbmSVManager.apk|fe735c4ba34ce45b704c30bef0aaf37d23b33cd6
+system_ext/priv-app/HbmSVManager/HbmSVManager.apk|fa6024ec1a34cf2ed74b6d3e3d78ac5f9ebdd8cf
 
 # Qualcomm IMS
 system_ext/etc/permissions/org_codeaurora_ims.xml
