@@ -5,6 +5,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys-intf/display \
     vendor/qcom/opensource/display
 
+# Add common definitions for Qualcomm
+$(call inherit-product, hardware/qcom-caf/common/common.mk)
+
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
