@@ -17,8 +17,8 @@ product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 
 # system_ext partition
 
-# HBM
-system_ext/priv-app/HbmSVManager/HbmSVManager.apk|c1a7aa6051cc79b98e2241711953d148f391eb63
+# HBM - from barbet AP2A.240805.005
+system_ext/priv-app/HbmSVManager/HbmSVManager.apk|602c2ad1a963379d7e45dd7dee97bf5d916eabd6
 
 # Qualcomm IMS
 system_ext/etc/permissions/org_codeaurora_ims.xml
@@ -53,15 +53,17 @@ system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
 system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img
 system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk;PRESIGNED
 
+# SecureUI - from barbet AP2A.240805.005
+system_ext/lib64/libsecureuisvc_jni.so;SYMLINK=system_ext/app/com.qualcomm.qti.services.secureui/lib/arm64/libsecureuisvc_jni.so|f90a20ddbf58c75d811f2637bd43662aab653653
+
 # SecureUI
 system_ext/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk
 system_ext/lib64/libsecureui_svcsock_system.so
-system_ext/lib64/libsecureuisvc_jni.so;SYMLINK=system_ext/app/com.qualcomm.qti.services.secureui/lib/arm64/libsecureuisvc_jni.so|a8f9dd9e459a8037386156169201e4c04ddc1343
 system_ext/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # vendor partition
 
-# Wi-Fi service
+# Wi-Fi service - from barbet AP2A.240805.005
 vendor/bin/hw/vendor.google.wifi_ext-service-vendor|2f00a17b75612cbf8fb3685fe0d183148a70dd03
 vendor/etc/init/vendor.google.wifi_ext-service.rc|8565ca57da131819441d6fb87abfcae134ed2ef9
 vendor/etc/vintf/manifest/manifest_wifi_ext_aidl.xml|f273a6ab68268f73935c36bdecea0aad97cbe70f
