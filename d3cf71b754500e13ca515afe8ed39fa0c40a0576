@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a491f810_1f5f7246",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-12-26T19:38:44Z",
+      "side": 1,
+      "message": "Before this, there was a race condition for some users where Lineage Health HAL was not able to access the sysfs which results in bootloops.",
+      "revId": "d3cf71b754500e13ca515afe8ed39fa0c40a0576",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
